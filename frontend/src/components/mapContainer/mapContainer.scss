@@ -1,0 +1,11 @@
+.map-container {
+    height: 53%!important;
+}
+.gm-style-iw-a {
+    display: none;
+}
+@media only screen and (max-width: 500px) {
+    .map-container {
+        height: 60vh!important;
+    }
+}

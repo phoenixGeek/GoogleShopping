@@ -1,0 +1,114 @@
+.card {
+    width: 14em;
+    margin-bottom: 10px!important;
+    box-shadow: inset 0 0 0 2px #dce4ec;
+    border-radius: 10px;
+    // display: -ms-flexbox;
+    // display: flex;
+    // -ms-flex-direction: column;
+    // flex-direction: column;
+    // min-width: 0;
+    // height: 650px;
+    word-wrap: break-word;
+    a {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.card-title{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slick-slide {
+    width: 230px!important;
+    padding: 35px;
+}
+.slick-prev {
+    left: 27px;
+    background: gray;
+    z-index: 10;
+}
+
+.slick-prev:hover {
+    background: gray;
+}
+
+.slick-next {
+    position: absolute;
+    right: 30px;
+    background: gray;
+}
+
+.slick-next:hover {
+    background: gray;
+}
+.card img {
+    padding: 10px;
+    margin-top: 1em;
+    max-height: 155.4px;
+    width: auto;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+}
+
+.search-header {
+    display: flex;
+    justify-content: center;
+    h5 {
+        color: orangered;
+    }
+    h4 {
+        margin-top: -2px;
+        margin-left: 10px;
+        color: blueviolet;
+        font-style: italic;
+    }
+}
+
+.spinner-border {
+    position: absolute;
+    top: 40vh;
+}
+
+.pagination {
+    margin: 1em 4em;
+    .active a {
+        color: white;
+        background-color: #337ab7;
+}
+}
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #337ab7;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.subheader {
+    text-align: left;
+    margin-left: 2em;
+}
+
+@media only screen and (max-width: 400px) {
+    .slick-prev {
+        background-color: white;
+        opacity: 0;
+    }
+    .slick-next {
+        background-color: white;
+        opacity: 0;
+    }
+    .pagination {
+        margin-left :27px;
+    }
+}

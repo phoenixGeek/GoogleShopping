@@ -1,0 +1,67 @@
+.dashboard-container {
+    margin-top: 20vh;
+}
+
+.searchbox {
+    
+    margin-top: 5Vh;
+    .microphone {
+        border-top-right-radius: 32px !important;
+        border-bottom-right-radius: 32px !important;
+        background-color: #fff
+    }
+
+    .google {
+        border-top-left-radius: 32px !important;
+        border-bottom-left-radius: 32px !important;
+        background-color: #fff
+    }
+
+    .input-group-prepend {
+        margin-right: -2px !important
+    }
+
+    .input-group-append {
+        margin-left: -2px !important
+    }
+
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #ced4da;
+        outline: 0;
+        box-shadow: 0px 0px 0px 0px;
+        outline:none;
+    }
+
+    .form-control {
+        border-right: 0 !important;
+        border-left: 0 !important
+    }
+}
+
+.dashboard-container {
+    position: relative;
+    top: -3em;
+    margin-bottom: -4em;
+}
+
+.search-button button {
+    border-radius: 0px;
+    position: relative;
+    top: 3em;
+    width: 10%;
+}
+
+@media only screen and (max-width: 500px) {
+    .searchbox {
+        width: 85%;
+    }
+    .logo-container img{
+        width: 50%
+    }
+    .search-button button {
+        width: 30%
+    }
+}
+  
